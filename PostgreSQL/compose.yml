@@ -1,0 +1,8 @@
+services:
+  postgree:
+    image: postgres:latest
+    container_name: postgreeServer
+    ports:
+      - "2004:5432"
+    environment:
+      POSTGRES_PASSWORD: Pg@123
